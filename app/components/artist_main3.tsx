@@ -16,7 +16,7 @@ export default function Artist_main3() {
           HABBYARIMANA <br /> IDDY
         </h1>
       </div>
-      <div className="space-y-12 font-satoshi bg-[#EFECE3] text-center capitalize flex flex-col justify-center text-sm leading-relaxed sm:text-base mt-6">
+      <div className="space-y-12 font-satoshi bg-[#EFECE3] text-center text-[10px] capitalize flex flex-col justify-center  leading-relaxed sm:text-base mt-6">
     <p className="mx-auto max-w-[800px] leading-10 align-middle">
         Habyarimana Iddy, born in 1998 in Rusizi, Western Province, Rwanda, is
         a <br />
@@ -70,20 +70,20 @@ export default function Artist_main3() {
       <div className="relative flex bg-[#EFECE3] flex-wrap">
         <div className="absolute -mt-44 flex left-0 h-[396px] w-[270px]">
           <Image
-            className="top-[300px] w-auto" // Keep the className for styling
+            className="top-[300px] h-[200px] mt-[87px] sm:mt-0 sm:h-[396px] w-auto" // Keep the className for styling
             src="/images/VectorwL.svg" // Keep the leading slash for relative paths
             alt="vactor1"
             width={0} // Specify the width of the image
-            height={396} // Specify the height of the image
+            height={0} // Specify the height of the image
           />
         </div>
         <div className="absolute -mt-44 flex h-[396px] w-auto right-0">
           <Image
-            className="top-[300px] w-auto" // Keep the className for styling
+            className="top-[300px] h-[200px] mt-[87px] sm:mt-0 sm:h-[396px] w-auto" // Keep the className for styling
             src="/images/VectorR.svg" // Ensure the leading slash for relative paths
             alt="vactor1"
             width={0} // Use a specific width or calculate it based on your layout
-            height={396} // Specify the height of the image
+            height={0} // Specify the height of the image
           />
         </div>
       </div>

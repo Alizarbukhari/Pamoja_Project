@@ -1,5 +1,4 @@
 import { APP_LINKS } from "../utils/constant";
-
 import Link from "next/link";
 
 export function InputDemo() {
@@ -20,7 +19,7 @@ function Header() {
 
       {/* Placeholder for Additional Content */}
       <div className="w-full md:w-auto">
-        {/* Add any content here if needed */}
+        {/* Additional content can be added here */}
       </div>
     </div>
   );

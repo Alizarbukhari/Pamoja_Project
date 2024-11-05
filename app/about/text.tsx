@@ -33,14 +33,14 @@ function Text() {
         established creator, Pamoja supports your artistic journey.
     </p>
 
-    <p className="text-gray-700 flex mx-auto">ALL RIGHTS RESERVED PAMOJA © GALLERY
+    <p className="text-gray-700 flex mx-auto text-[12px] sm:text-xl sm:mx-auto">ALL RIGHTS RESERVED PAMOJA © GALLERY
     </p>
 </div>
 
         <div className='relative flex bg-[#EFECE3] flex-wrap'> 
   <div className="absolute -mt-32 flex left-0 ">
     <Image 
-      className='top-[300px] h-[396px] w-auto' 
+      className='top-[300px] mt-[70px]  h-[230px] sm:h-[720px] sm:-mt-36 w-auto' 
       src="/images/Vector1.svg" 
       alt="vactor1" 
       width={0} // Width ko specify karein
@@ -49,7 +49,7 @@ function Text() {
   </div>
   <div className="absolute -mt-36 flex  right-0">
     <Image 
-      className='top-[300px] h-[396px] w-auto' 
+      className='top-[300px] mt-[70px] h-[230px] w-auto sm:h-[720px] sm:-mt-36' 
       src="/images/Vector2.svg" 
       alt="vactor1" 
       width={0} // Width ko specify karein

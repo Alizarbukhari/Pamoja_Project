@@ -6,7 +6,7 @@ export default function Home() {
     <div className="bg-[url('/images/bg.jpeg')] bg-cover bg-center w-full h-full min-h-screen">
       <div className="absolute bottom-0 left-0 right-0 flex justify-center bg-transparent pb-28 ">
         
-        <Image
+        <Image className=" mb-5 sm:mb-0"
           src={"/images/vertex.svg"}
           height={76.87}
           width={75.96}
@@ -15,7 +15,7 @@ export default function Home() {
       </div>
       <div className="absolute bottom-0 left-0 right-0 flex justify-center bg-transparent pb-20 ">
         {" "}
-        <Image
+        <Image className="mb-5 sm:mb-0"
           src={"/images/pamoja.svg"}
           height={19.01}
           width={112.45}
@@ -23,9 +23,9 @@ export default function Home() {
         />
       </div>
 
-      <div className="absolute bottom-0 left-0 right-0 flex justify-center bg-transparent">
-        {" "}
-        <Navebar />
+      <div className="absolute bottom-0 left-0 right-0 flex justify-center bg-transparent ">
+        
+        <Navebar/>
       </div>
     </div>
   );
