@@ -34,12 +34,10 @@ export default function Artist_main2() {
         </div>
 
         <div className="bg-[url('/images/footer.png')]  relative  ">
-          <div className=" flex flex-col place-items-center mt-20">
-            <p className="text-2xl sm:text-3xl lg:text-5xl font-extrabold p-4 text-white place-items-center tracking-wide bg-[#CB6C2A]">
-              LAUREN C.
-            </p>
+        
+            
             <div className="mt-20"><ArtistSlider/></div>
-          </div>
+          
                   </div>
       </div>
     </div>
