@@ -1,7 +1,6 @@
 import React from "react";
 import { Be_Vietnam_Pro } from "next/font/google";
 import Image from "next/image";
-import Link from "next/link"
 import ArtistSlider from "./artistslider";
 const beVietnamPro = Be_Vietnam_Pro({
   subsets: ["latin"],
