@@ -2,6 +2,7 @@ import React from "react";
 import { Be_Vietnam_Pro } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link"
+import ArtistSlider from "./artistslider";
 const beVietnamPro = Be_Vietnam_Pro({
   subsets: ["latin"],
   weight: ["400", "700", "800"],
@@ -33,23 +34,14 @@ export default function Artist_main2() {
           </div>
         </div>
 
-        <div className="bg-[url('/images/footer.png')] relative ">
+        <div className="bg-[url('/images/footer.png')]  relative  ">
           <div className=" flex flex-col place-items-center mt-20">
             <p className="text-2xl sm:text-3xl lg:text-5xl font-extrabold p-4 text-white place-items-center tracking-wide bg-[#CB6C2A]">
               LAUREN C.
             </p>
+            <div className="mt-20"><ArtistSlider/></div>
           </div>
-          <button className="absolute right-6 top-1/2 -translate-y-1/2 text-white hover:opacity-75 transition-opacity">
-          <Link href={"/"}> <Image
-    src="/images/arrow.svg" // Keep the leading slash for relative paths
-    alt="arrow"
-    className="h-[90px] w-[90px]" // Remove className since it won't apply directly to Image
-    width={90} // Specify the width of the image
-    height={90} // Specify the height of the image
-  /></Link>
-  <span className="sr-only">Next artist</span>
-</button>
-        </div>
+                  </div>
       </div>
     </div>
   );
